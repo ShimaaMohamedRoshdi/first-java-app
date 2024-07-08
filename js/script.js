@@ -22,28 +22,28 @@ let products=[
       id:1,
       title:"Espresso  ",
       price: "90$" ,
-      imageUrl: "./images/drink-4667507_1280.jpg" ,
+      imageUrl: "images/drink-4667507_1280.jpg" ,
 
     },
     {
       id:2,
       title:"Latte Coffee  ",
       price: "30$" ,
-      imageUrl: "./images/pexels-beyzanur-k-18844425.jpg" ,
+      imageUrl: "images/pexels-beyzanur-k-18844425.jpg" ,
 
     },
     {
       id:3,
       title:"Cappuccino  ",
       price: "40$" ,
-      imageUrl: "./images/pexels-chevanon-photography-302891.jpg" 
+      imageUrl: "images/pexels-chevanon-photography-302891.jpg" 
 
     },
     {
       id:4,
       title:"Americano  ",
       price: "70$" ,
-      imageUrl:"./images/83fc924b-bc0b-4735-a823-ee7cb38809d3.jpg"  
+      imageUrl:"images/83fc924b-bc0b-4735-a823-ee7cb38809d3.jpg"  
 
     }
 ]
@@ -121,6 +121,7 @@ function opencart(){
      } 
 }
 ///////////////////////////////////////////////////////////////////////
+
 
 
 

@@ -26,21 +26,19 @@ function drawCartProducts(products){
     allProducts.innerHTML = y;
 }
 //////////////////////////////////
-function RemoveFromCart(id) {
-    let catsInProducts=localStorage.getItem("ProductsInCart");
-    console.log(catsInProducts);
-        if (catsInProducts != -1) {
+function deleteFromCart(id) {
+    let catsInProducts=localStorage.getItem("productsInItem");
+        if (catsInProducts!== -1) {
             let allproducts=JSON.parse(catsInProducts);
-   
+    
             let index=allproducts.findIndex(item=> item.id ===id);
-
+    
             if(index!== -1){
                 allproducts.splice(index,1);
-               
+                console.log(allproducts);
                  localStorage.setItem("ProductsInCart", JSON.stringify(allproducts));
-                 drawCartProducts(allproducts);
+      drawCartProducts(allproducts);
             }
        
         }
-     
       }
